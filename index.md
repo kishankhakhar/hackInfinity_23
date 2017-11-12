@@ -18,9 +18,9 @@ Disease Detection and Identification in Cotton Leaves.
 
 ## Project Abstract
 - The primary purpose of the project is to identify whether a particular cotton leaf is diseased or not and if it is
-diseased, identification of the disease is done. We have considered three main diseases - Alternaria Macrospora, Bacterial Blight and Grey Mildew. We are using Multi-SVM classification algorithm, to identify among different classes. The training data
-are images taken from web which are uploaded by ordinary humans. Assuming that the images are taken in uncontrolled environment, many difficulties are faced, making the machine-learning algorithm less effective. Therefore, some pre-processing like clustering, segmentation is done to improve the quality of learning. We have used various statistical features (mean,
-Standard deviation, variance etc.) as training features for our algorithm.
+diseased, identification of the disease is done. We have considered three main diseases - Alternaria Macrospora, Bacterial Blight and Grey Mildew. 
+- We are using Multi-SVM classification algorithm, to identify among different classes. 
+The training data are images taken from web which are uploaded by ordinary humans. Assuming that the images are taken in uncontrolled environment, many difficulties are faced, making the machine-learning algorithm less effective. Therefore, some pre-processing like clustering, segmentation is done to improve the quality of learning. We have used various statistical features (mean, Standard deviation, variance etc.) as training features for our algorithm.
 
 ## Connection with the theme "Agriculture"
 - India's is the highest producer of Cotton. Every year 20 to 25% of cotton crops fails due to disease which results into a
