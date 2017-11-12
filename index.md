@@ -1,37 +1,101 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/kishankhakhar/hackInfinity_23/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Project Title
+Dictionary Based Filtering
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Member Group - 8
+- Maharsh Patel-1401109
+- Charvik Patel-1401079
+- Neel Puniwala-1401024
+- Himanshu Budhia-1401039
 
-### Markdown
+## Mentor's And Teaching Assistant
+- Dr. Mehul raval
+- Vaibhav Joshi 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Abstract
+Digital image processing refers to the process of
+digital images by means of digital computer. The main application
+area in digital image processing is to enhance the pictorial data
+for human interpretation. In image some of the unwanted information
+is present that will be removed by several preprocessing
+techniques. Filtering helps to enhance the image by removing
+noise.Initially By creating Dictionary we will store two form of
+matrix.now when We add new image in dictionary we don’t need
+to pass image from filter instead we will just Dictionary Learn
+form the Previous Dictionary and just map into.
 
-# Header 1
-## Header 2
-### Header 3
+## Introduction:
+- Basically the idea of Dictionary based filtering is instead of doing classical convolution every time,we directly take de–noise image from the dictionary using searching algorithm and time after time Learning of dictionary is also done by the same algorithm. We are planning to do low pass or high pass filtering to de–noise the noisy image. Low pass filter is used to remove salt and paper noise while high pass filter is used to separate of edges.We use OpenCV libraries and Python libraries to implement the low pass filter and to create blocks of image.
+- Initially we take some training and filter them by using classical convolution.Both filtered and non-filtered images are divided into blocks which are stored in a dictionary.In the dictionary the key is noisy part of the image and the value is filtered part of the image.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Methodology
+<img src="https://github.com//Charvik2020/Dictionary-based-filtering/raw/master/Report/Midterm%20Report/2.jpg" alt="https://github.com//Charvik2020/Dictionary-based-filtering/raw/master/Report/Midterm%20Report/2.jpg">
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
+## Algorithm
+```python
+First of all we have to take n x n training image.
+Create m x m blocks.
+Create dictionary using blocks.
+Dictionary:
+	Key - Noisy image
+	value - filtered image
+Search algorithm
+if Nearest Possible Match then
+	Noisy Patch Replaced with this Image
+else
+	Add to Dictionary
+end
+return Final Filtered Image
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Requirements
+- Python 2.7+
+- PIL
+- skimage
+- numpy
+- OpenCV
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kishankhakhar/hackInfinity_23/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Output
+- KSVD
+<img src="https://github.com//Charvik2020/Dictionary-based-filtering/raw/master/output/KSVD.jpg" alt="https://github.com//Charvik2020/Dictionary-based-filtering/raw/master/output/KSVD.jpg">
 
-### Support or Contact
+- on-line Dictionary Learning
+<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearning.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearning.jpg">
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg">
+
+
+- our own approach Dictionary Based Filtering
+<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/output1.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/output1.jpg">
+
+<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/output2.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/output2.jpg">
+
+<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/Timeanalysis.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/Timeanalysis.jpg">
+
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Dimension(m)<br></th>
+    <th class="tg-yw4l">Thresold<br></th>
+    <th class="tg-yw4l">Error</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">50 x 50<br></td>
+    <td class="tg-yw4l">175</td>
+    <td class="tg-yw4l">9.89 %<br></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">75 x 75<br></td>
+    <td class="tg-yw4l">140</td>
+    <td class="tg-yw4l">9.19%<br></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">100 x 100<br></td>
+    <td class="tg-yw4l">90</td>
+    <td class="tg-yw4l">3.5%</td>
+  </tr>
+</table>
