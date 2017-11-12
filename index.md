@@ -42,6 +42,9 @@ https://youtu.be/xo6_sUo8Rsw
 - Matlab 
 - Android Studio
 
+## Leaves Dataset
+https://drive.google.com/drive/folders/1-PS9cQTujMhRIGvfMT5iAEhL3lgwCFLg?usp=sharing
+
 ## Output Screenshots
 - Healthy Leaf Image
 <img src="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/healthy_leaf.png" alt="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/healthy_leaf.png">
