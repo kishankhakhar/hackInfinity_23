@@ -16,13 +16,13 @@ Disease Detection and Identification in Cotton Leafs
 5) Jainil Vachhani - This guy writes no bug, just undocumented features.
 
 
-## Abstract
+## Project Abstract
 - The primary purpose of the project is to identify whether a particular cotton leaf is diseased or not and if it is
 diseased, identification of the disease is done. We have considered three main diseases - Alternaria Macrospora, Bacterial Blight and Grey Mildew. We are using Multi-SVM classification algorithm, to identify among different classes. The training data
 are images taken from web which are uploaded by ordinary humans. Assuming that the images are taken in uncontrolled environment, many difficulties are faced, making the machine-learning algorithm less effective. Therefore, some pre-processing like clustering, segmentation is done to improve the quality of learning. We have used various statistical features (mean,
 Standard deviation, variance etc.) as training features for our algorithm.
 
-## Introduction:
+## Introduction
 - India's is the highest producer of Cotton. Every year 20 to 25% of cotton crops fails due to disease which results into a
 very huge amount of diseased crops. The common diseases observed in cottoon leafs which we have considered for our project are bacterial Blight, Grey Mildew and Alternaria Macrosopra. These diseases in cotton leaf are very much prevalent in gujarat.
   
@@ -43,10 +43,17 @@ https://youtu.be/xo6_sUo8Rsw
 - Android Studio
 
 ## Output Screenshots
-<img src="https://github.com/kishankhakhar/hackInfinity_23/tree/master/Output_Screenshots" alt="https://github.com/kishankhakhar/hackInfinity_23/tree/master/Output_Screenshots">
+- Healthy Leaf Image
+<img src="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/healthy_leaf.png" alt="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/healthy_leaf.png">
 
+- GrayScale Image
+<img src="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/grayscale.jpg" alt="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/grayscale.jpg">
 
+- Clusters Formed
+<img src="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/clusters.jpg" alt="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/clusters.jpg">
 
+- Black and White Image
+<img src="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/black%26white.jpg" alt="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/black%26white.jpg">
 
-
-
+- Black and White with dots
+<img src="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/black%26white_with_dots.jpg" alt="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Output_Screenshots/black%26white_with_dots.jpg">
