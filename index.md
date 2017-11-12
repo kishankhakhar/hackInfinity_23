@@ -21,7 +21,7 @@ Standard deviation, variance etc.) as training features for our algorithm.
 
 ## Introduction:
 - India's is the highest producer of Cotton. Every year 20 to 25% of cotton crops fails due to disease which results into a
-very huge amount of diseased crops. The common diseases observed in cottoon leafs which we have considered for our project are bacterial blight, grey mildew and alternaria macrosopra. These diseases in cotton leaf are very much prevalent in gujarat.
+very huge amount of diseased crops. The common diseases observed in cottoon leafs which we have considered for our project are bacterial Blight, Grey Mildew and Alternaria Macrosopra. These diseases in cotton leaf are very much prevalent in gujarat.
   
 ## Methodology
 - Talking about the methods to detect disease and identify it :
@@ -36,7 +36,7 @@ very huge amount of diseased crops. The common diseases observed in cottoon leaf
 
 ## Requirements
 - Matlab 
-- Android Studio 3.0.0
+- Android Studio
 
 ## Output Screenshots
 <img src="https://github.com/kishankhakhar/hackInfinity_23/tree/master/Output_Screenshots" alt="https://github.com/kishankhakhar/hackInfinity_23/tree/master/Output_Screenshots">
