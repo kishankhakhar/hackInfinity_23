@@ -1,33 +1,23 @@
 
 ## Project Title
-Dictionary Based Filtering
+Disease Detection and Identification in Cotton Leaf
 
-## Member Group - 8
-- Maharsh Patel-1401109
-- Charvik Patel-1401079
-- Neel Puniwala-1401024
-- Himanshu Budhia-1401039
-
-## Mentor's And Teaching Assistant
-- Dr. Mehul raval
-- Vaibhav Joshi 
+## Group - 23
+- Kishan Khakhar
+- Charvik Patel
+- Neel Puniwala
+- Jainil Vachhani
+- Parth Satodiya
 
 
 ## Abstract
-Digital image processing refers to the process of
-digital images by means of digital computer. The main application
-area in digital image processing is to enhance the pictorial data
-for human interpretation. In image some of the unwanted information
-is present that will be removed by several preprocessing
-techniques. Filtering helps to enhance the image by removing
-noise.Initially By creating Dictionary we will store two form of
-matrix.now when We add new image in dictionary we don’t need
-to pass image from filter instead we will just Dictionary Learn
-form the Previous Dictionary and just map into.
+- The primary purpose of the project is to identify whether a particular cotton leaf is diseased or not and if it is
+diseased, identification of the disease is done. We have considered three main diseases - Alternaria Macrospora, Bacterial Blight and Grey Mildew. We are using Multi-SVM classification algorithm, to identify among different classes. The training data
+are images taken from web which are uploaded by ordinary humans. Assuming that the images are taken in uncontrolled environment, many difficulties are faced, making the machine-learning algorithm less effective. Therefore, some pre-processing like clustering, segmentation is done to improve the quality of learning. We have used various statistical features (mean,
+Standard deviation, variance etc.) as training features for our algorithm.
 
 ## Introduction:
-- Basically the idea of Dictionary based filtering is instead of doing classical convolution every time,we directly take de–noise image from the dictionary using searching algorithm and time after time Learning of dictionary is also done by the same algorithm. We are planning to do low pass or high pass filtering to de–noise the noisy image. Low pass filter is used to remove salt and paper noise while high pass filter is used to separate of edges.We use OpenCV libraries and Python libraries to implement the low pass filter and to create blocks of image.
-- Initially we take some training and filter them by using classical convolution.Both filtered and non-filtered images are divided into blocks which are stored in a dictionary.In the dictionary the key is noisy part of the image and the value is filtered part of the image.
+- 
 
 
 ## Methodology
