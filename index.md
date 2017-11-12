@@ -22,9 +22,9 @@ diseased, identification of the disease is done. We have considered three main d
 are images taken from web which are uploaded by ordinary humans. Assuming that the images are taken in uncontrolled environment, many difficulties are faced, making the machine-learning algorithm less effective. Therefore, some pre-processing like clustering, segmentation is done to improve the quality of learning. We have used various statistical features (mean,
 Standard deviation, variance etc.) as training features for our algorithm.
 
-## Introduction
+## Connection with the theme "Agriculture"
 - India's is the highest producer of Cotton. Every year 20 to 25% of cotton crops fails due to disease which results into a
-very huge amount of diseased crops. The common diseases observed in cottoon leafs which we have considered for our project are bacterial Blight, Grey Mildew and Alternaria Macrosopra. These diseases in cotton leaf are very much prevalent in gujarat.
+very huge amount of diseased crops. The common diseases observed in cottoon leafs which we have considered for our project are bacterial Blight, Grey Mildew and Alternaria Macrosopra. These diseases in cotton leaf are very much prevalent in gujarat.Pre-detection of these diseases by use of Machine Learning Techniques can significantly help the farmers to prevent the disease from causing more damage to the crop. This could substantially reduce the damage to crop.
   
 ## Methodology
 - Talking about the methods to detect disease and identify it :
