@@ -44,11 +44,7 @@ return Final Filtered Image
 
 
 ## Requirements
-- Python 2.7+
-- PIL
-- skimage
-- numpy
-- OpenCV
+- Matlab 7.0+ 
 
 ## Output
 - KSVD
