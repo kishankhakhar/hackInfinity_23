@@ -26,7 +26,7 @@ very huge amount of diseased crops. The common diseases observed in cottoon leaf
  We have used Mutli-SVM for classification of diseases and k-means clustering for image segmentation.
 
 ## Work Flow Diagram
-<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg">
+<img src="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Flowchart.PNG" alt="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Flowchart.PNG">
 
 ## Video Link
 
@@ -44,8 +44,3 @@ very huge amount of diseased crops. The common diseases observed in cottoon leaf
 Our Team Members are Charvik Patel, Kishan Khakhar, Jainil Vachhani, Neel Puniwala and Parth Satodiya.
 Our project required knowledge in Machine Learning Algorithms and a little bit of web development.
 Neel and Parth are the ML guys, Jainil and Charvik had prior experience with Matlab and Kishan is the Developer for the Web Application.
-
-
-
-
-
