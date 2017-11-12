@@ -1,6 +1,6 @@
 
 ## Project Title
-Disease Detection and Identification in Cotton Leafs 
+Disease Detection and Identification in Cotton Leaves.
 
 ## Team Description (Group-23)
 - Team Name: Stupid stuff no one needs and other terrible ideas
