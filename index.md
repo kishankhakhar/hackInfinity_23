@@ -39,6 +39,9 @@ very huge amount of diseased crops. The common diseases observed in cottoon leaf
 - Android Studio 3.0.0
 
 ## Output Screenshots
+<img src="https://github.com/kishankhakhar/hackInfinity_23/tree/master/Output_Screenshots" alt="https://github.com/kishankhakhar/hackInfinity_23/tree/master/Output_Screenshots">
+
+
 
 
 
