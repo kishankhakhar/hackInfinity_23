@@ -1,16 +1,19 @@
 
 ## Project Title
-Disease Detection and Identification in Cotton Leafs
+Disease Detection and Identification in Cotton Leafs 
 
-## Group - 23 
-1) Kishan Khakhar
-2) Charvik Patel
-3) Neel Puniwala
-4) Jainil Vachhani
-5) Parth Satodiya
+## Team Description (Group-23)
+- Team Name: Stupid stuff no one needs and other terrible ideas
 
-## Team Description 
-- Hola, We are a team of 5 aspiring ICT Engineers from SEAS, Ahmedabad University.
+1) Neel Puniwala - Complete geek. He likes to solve problems and when there are none available, he creates his own.
+
+2) Parth Satodiya - He is mostly wrong, but since it is computer science, he is just off by a bit.
+
+3) Charvik Patel - To understand this guy, you need to first understand this guy.
+
+4) Kishan Khakhar - Hates OOP. He has no class.
+
+5) Jainil Vachhani - This guy writes no bug, just undocumented features.
 
 
 ## Abstract
@@ -32,6 +35,7 @@ very huge amount of diseased crops. The common diseases observed in cottoon leaf
 <img src="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Flowchart.PNG" alt="https://github.com/kishankhakhar/hackInfinity_23/blob/master/Flowchart.PNG">
 
 ## Video Link
+https://youtu.be/xo6_sUo8Rsw
 
 
 ## Requirements
