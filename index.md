@@ -2,7 +2,7 @@
 ## Project Title
 Disease Detection and Identification in Cotton Leaf
 
-## Group - 23
+## Group - 23 (School of Engineering and Applied Sciences,Ahmedabad University)
 - Kishan Khakhar
 - Charvik Patel
 - Neel Puniwala
@@ -17,51 +17,34 @@ are images taken from web which are uploaded by ordinary humans. Assuming that t
 Standard deviation, variance etc.) as training features for our algorithm.
 
 ## Introduction:
-- 
-
-
+- India's is the highest producer of Cotton. Every year 20 to 25% of cotton crops fails due to disease which results into a
+very huge amount of diseased crops. The common diseases observed in cottoon leafs which we have considered for our project are bacterial blight, grey mildew and alternaria macrosopra. These diseases in cotton leaf are very much prevalent in gujarat.
+  
 ## Methodology
-<img src="https://github.com//Charvik2020/Dictionary-based-filtering/raw/master/Report/Midterm%20Report/2.jpg" alt="https://github.com//Charvik2020/Dictionary-based-filtering/raw/master/Report/Midterm%20Report/2.jpg">
-
-
+- Talking about the methods to detect disease and identify it :
+ There are many ways to extract the diseased part from a leaf image like extracting color,shape,texture etc...
+ We have used Mutli-SVM for classification of diseases and k-means clustering for image segmentation.
 
 ## Algorithm
-```python
-First of all we have to take n x n training image.
-Create m x m blocks.
-Create dictionary using blocks.
-Dictionary:
-	Key - Noisy image
-	value - filtered image
-Search algorithm
-if Nearest Possible Match then
-	Noisy Patch Replaced with this Image
-else
-	Add to Dictionary
-end
-return Final Filtered Image
 ```
+1) Image Acquisition
+2) Image Pre-Processing
+3) Image Segmentation
+4) Feature Extraction
+5) Creation of Training Set
+6) Training using SVM
+7) Detection and Classification of test Images
+```
+## Video Link
 
 
 ## Requirements
-- Matlab 7.0+ 
+- Matlab 
+- Android Studio 3.0.0
 
-## Output
-- KSVD
-<img src="https://github.com//Charvik2020/Dictionary-based-filtering/raw/master/output/KSVD.jpg" alt="https://github.com//Charvik2020/Dictionary-based-filtering/raw/master/output/KSVD.jpg">
-
-- on-line Dictionary Learning
-<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearning.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearning.jpg">
+## Output Screenshots
 
 <img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg">
-
-
-- our own approach Dictionary Based Filtering
-<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/output1.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/output1.jpg">
-
-<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/output2.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/output2.jpg">
-
-<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/Timeanalysis.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Code%20and%20Results/Analysis/imageanalysis/Timeanalysis.jpg">
 
 <table class="tg">
   <tr>
