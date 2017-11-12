@@ -25,16 +25,9 @@ very huge amount of diseased crops. The common diseases observed in cottoon leaf
  There are many ways to extract the diseased part from a leaf image like extracting color,shape,texture etc...
  We have used Mutli-SVM for classification of diseases and k-means clustering for image segmentation.
 
-## Algorithm
-```
-1) Image Acquisition
-2) Image Pre-Processing
-3) Image Segmentation
-4) Feature Extraction
-5) Creation of Training Set
-6) Training using SVM
-7) Detection and Classification of test Images
-```
+## Work Flow Diagram
+<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg">
+
 ## Video Link
 
 
@@ -44,27 +37,15 @@ very huge amount of diseased crops. The common diseases observed in cottoon leaf
 
 ## Output Screenshots
 
-<img src="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg" alt="https://github.com/Charvik2020/Dictionary-based-filtering/raw/master/Report/FinalTerm%20Report/OnlineDictionaryLearningCopy.jpg">
 
-<table class="tg">
-  <tr>
-    <th class="tg-yw4l">Dimension(m)<br></th>
-    <th class="tg-yw4l">Thresold<br></th>
-    <th class="tg-yw4l">Error</th>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">50 x 50<br></td>
-    <td class="tg-yw4l">175</td>
-    <td class="tg-yw4l">9.89 %<br></td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">75 x 75<br></td>
-    <td class="tg-yw4l">140</td>
-    <td class="tg-yw4l">9.19%<br></td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">100 x 100<br></td>
-    <td class="tg-yw4l">90</td>
-    <td class="tg-yw4l">3.5%</td>
-  </tr>
-</table>
+
+## Team Description 
+- Hola, We are a team of 5 aspiring ICT Engineers from SEAS, Ahmedabad University.
+Our Team Members are Charvik Patel, Kishan Khakhar, Jainil Vachhani, Neel Puniwala and Parth Satodiya.
+Our project required knowledge in Machine Learning Algorithms and a little bit of web development.
+Neel and Parth are the ML guys, Jainil and Charvik had prior experience with Matlab and Kishan is the Developer for the Web Application.
+
+
+
+
+
