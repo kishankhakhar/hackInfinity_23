@@ -1,13 +1,16 @@
 
 ## Project Title
-Disease Detection and Identification in Cotton Leaf
+Disease Detection and Identification in Cotton Leafs
 
-## Group - 23 (School of Engineering and Applied Sciences,Ahmedabad University)
-- Kishan Khakhar
-- Charvik Patel
-- Neel Puniwala
-- Jainil Vachhani
-- Parth Satodiya
+## Group - 23 
+1) Kishan Khakhar
+2) Charvik Patel
+3) Neel Puniwala
+4) Jainil Vachhani
+5) Parth Satodiya
+
+## Team Description 
+- Hola, We are a team of 5 aspiring ICT Engineers from SEAS, Ahmedabad University.
 
 
 ## Abstract
@@ -39,8 +42,4 @@ very huge amount of diseased crops. The common diseases observed in cottoon leaf
 
 
 
-## Team Description 
-- Hola, We are a team of 5 aspiring ICT Engineers from SEAS, Ahmedabad University.
-Our Team Members are Charvik Patel, Kishan Khakhar, Jainil Vachhani, Neel Puniwala and Parth Satodiya.
-Our project required knowledge in Machine Learning Algorithms and a little bit of web development.
-Neel and Parth are the ML guys, Jainil and Charvik had prior experience with Matlab and Kishan is the Developer for the Web Application.
+
